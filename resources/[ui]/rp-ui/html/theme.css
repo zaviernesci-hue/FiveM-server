@@ -1,0 +1,25 @@
+/* Los Santos RP - shared dark theme */
+:root {
+  --rp-bg: rgba(12, 14, 22, 0.92);
+  --rp-blur: blur(16px);
+  --rp-radius: 16px;
+  --rp-accent: #74b9ff;
+  --rp-success: #2ecc71;
+  --rp-danger: #e74c3c;
+  --rp-text: #e8e8e8;
+  --rp-border: rgba(255, 255, 255, 0.08);
+}
+
+.rp-panel {
+  background: var(--rp-bg);
+  backdrop-filter: var(--rp-blur);
+  border-radius: var(--rp-radius);
+  border: 1px solid var(--rp-border);
+  color: var(--rp-text);
+  animation: rpFadeIn 0.25s ease;
+}
+
+@keyframes rpFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}

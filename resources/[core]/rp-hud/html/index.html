@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="hud">
+    <div class="compass"><span id="compass">N</span> · <span id="street">—</span></div>
+    <div class="stats-left">
+      <div class="bar health"><div id="health"></div></div>
+      <div class="bar armor"><div id="armor"></div></div>
+      <div class="bar hunger"><div id="hunger"></div></div>
+      <div class="bar thirst"><div id="thirst"></div></div>
+      <div class="bar stress"><div id="stress"></div></div>
+    </div>
+    <div class="stats-right">
+      <div id="cash">$0</div>
+      <div id="bank">$0</div>
+      <div id="fuel-wrap" class="hidden">⛽ <span id="fuel">100</span>%</div>
+      <div id="speed-wrap" class="hidden"><span id="speed">0</span> MPH</div>
+      <div id="seatbelt" class="hidden">🔒</div>
+      <div id="talking" class="hidden">🎤</div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

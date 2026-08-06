@@ -1,0 +1,6 @@
+body{margin:0;font-family:Segoe UI,sans-serif;background:transparent;color:#eee}
+#market{padding:24px;max-width:640px;margin:40px auto;background:linear-gradient(145deg, rgba(11,15,24,.96), rgba(21,27,39,.94));border-radius:18px;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.1);box-shadow:0 18px 48px rgba(0,0,0,.35)}
+.hidden{display:none!important}
+.item{padding:12px;margin:8px 0;background:linear-gradient(145deg, rgba(255,255,255,.07), rgba(255,255,255,.03));border-radius:10px;border:1px solid rgba(255,255,255,.05)}
+button{padding:6px 14px;border-radius:8px;border:none;background:linear-gradient(135deg,#2d9cdb,#2777b0);color:#fff;cursor:pointer;font-weight:600}
+button:hover{background:linear-gradient(135deg,#4bb1ff,#2d9cdb)}
