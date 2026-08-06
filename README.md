@@ -24,12 +24,6 @@ This project was created by **zavier**. By downloading, using, or modifying this
 * ❌ Include this resource in paid or free server packs without permission.
 * ❌ Decompile, reverse engineer, or attempt to bypass any licensing or protection mechanisms included with this resource.
 
-## Support
-
-Support is only provided for official copies obtained directly from the original source.
-
-Modified versions may not be eligible for support.
-
 ## Updates
 
 Official updates will only be released by the original developer. Download updates only from the official source.
